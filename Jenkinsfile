@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Kartik4356/terraform.git'
+                git branch: 'main', url: 'https://github.com/Kartik4356/Ansible_setup_3node-1control_using terraform.git'
             }
         }
         stage('Terraform init') {
