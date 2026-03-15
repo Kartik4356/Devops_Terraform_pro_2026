@@ -1,18 +1,18 @@
 variable "AWS_REGION" {
-    default = "us-west-1"
+    default = "ap-southeast-1"
 }
 variable "AWS_AMI" {
-    default = "ami-0993d3759749c153c"
+    default = "ami-0993d1234749c153c"
 }
 variable "az" {
-    default = "us-west-1a"
+    default = "ap-southeast-1a"
 }
 
 variable "akey" {
-    default = ""
+    default = "<from aws iam>"
 }
 variable "skey" {
-    default = ""
+    default = "<from aws iam>"
 }
 variable "pkey" {
     default = "linux cali keppair"
